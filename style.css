@@ -34,7 +34,7 @@ header{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin-top:11vh;
+    margin-top:13.5vh;
 }
 #linksDiv > div{
     margin-top:10px;
@@ -69,32 +69,46 @@ color:rgb(44, 124, 177);
     right:0;
     bottom:0;
 }
-.wrapper1{
+.wrapper{
+    width:700px;
     margin:auto;
-    text-align: center;
-    font-size: 5vh;
-    padding:5vh 0vh 0vh 5vh;
+}
+#div1{
+    margin:auto;
     margin-bottom: 50px;
     margin-top:3vh;
-    width: 100vh;
-    min-height: 50vh;
+    padding-top:2vh;
+    padding-bottom:2vh;
+    text-align: center;
+    font-size: 2.5vh;
+    font-family: 'Rammetto One', cursive;
+    width: 100%;
     background-color: rgba(32, 34, 34, 0.516);
     color:lightgray;
     position: relative;
     z-index: 2;
-    -webkit-backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(15px);
 }
-.wrapper2{
+#div2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
     margin:auto;
     margin-top:3vh;
+    padding-top:2vh;
+    margin-bottom: 5vh;
+    padding-bottom:2vh;
     min-height:400px;
-    width: 60%;
+    width: 100%;
     background-color: rgba(32, 34, 34, 0.516);
     color:lightgray;
-    padding:10px 10px 10px 10px;
-    margin-bottom: 150px;
     position: relative;
     z-index: 2;
-    -webkit-backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(15px);
+}
+#wright{
+    width:400px;
+    font-size: 2vh;
+    font-family: 'Rammetto One', cursive;
 }
 
